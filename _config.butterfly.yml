@@ -7,10 +7,9 @@ menu:
   归档: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
-  # 列表 || fas fa-list || hide:
-  #   Music: /music/ || fas fa-music
+  列表 || fas fa-list || hide:
+    神秘教程: /posts/1542838017 || fas fa-music
   #   Movie: /movies/ || fas fa-video
-    # 书源: /book/ || fas fa-book
   友链: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
 
@@ -684,7 +683,7 @@ aside:
       link: https://github.com/
   card_announcement:
     enable: true
-    content: "暂时没有哦~ (ૢ˃ꌂ˂⁎)"
+    content: "1.征集教程封面啦！如果你有想法，请前往 tg@xiayinlily 的绑定群聊发生你的想法或者邮件发我！\n2.征集主页图片！（长期）有意者请通过 tg@xiayinlily 或者邮件联系。"
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
