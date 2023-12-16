@@ -683,7 +683,7 @@ aside:
       link: https://github.com/
   card_announcement:
     enable: true
-    content: "1.征集教程封面啦！如果你有想法，请前往 [@xiayinlily](https://t.me/xiayinlily) 的绑定群聊发生你的想法或者邮件发我！<br />2.征集主页图片！（长期）有意者请通过 [@xiayinlily](https://t.me/xiayinlily) 或者邮件联系。"
+    content: "1.征集教程封面啦！如果你有想法，请前往 <a href='https://t.me/xiayinlily'>@xiayinlily</a> 的绑定群聊发生你的想法或者邮件发我！<br />2.征集主页图片！（长期）有意者请通过 <a href='https://t.me/xiayinlily'>@xiayinlily</a> 或者邮件联系。"
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
