@@ -1,0 +1,47 @@
+name: Build and Deploy
+
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: latest
+
+      - name: Configuration Environment
+        run: |
+          npm install
+          npm install -g hexo
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git config init.defaultbranch gh-pages
+          cp -r hjson/* node_modules/
+
+      - name: Build
+        run: |
+          hexo generate
+
+      - name: Start Deploy
+        run: |
+          cp -r public .deploy_git
+          cd .deploy_git
+          git init .
+          git add -A
+          git commit -m "Build & Deploy"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          force: true
+          branch: "gh-pages"
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          directory: ".deploy_git"

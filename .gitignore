@@ -1,0 +1,7 @@
+node_modules/
+/public/
+.deploy*/
+db.json
+.deplay/
+/themes/*
+!/themes/.gitkeep
