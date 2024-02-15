@@ -20,6 +20,10 @@ main p {
   text-indent: 2em;
 }
 
+.comment-wrap p {
+  text-indent: 0em !important;
+}
+
 code {
   word-break: break-all;
 }
