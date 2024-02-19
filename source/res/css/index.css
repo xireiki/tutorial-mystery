@@ -24,7 +24,7 @@ main p {
   text-indent: 0em !important;
 }
 
-code {
+code, p, a {
   word-break: break-all;
 }
 
