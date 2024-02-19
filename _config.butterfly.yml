@@ -443,8 +443,8 @@ footer:
   owner:
     enable: true
     since: 2022
-  custom_text: "你好呀！陌生人！"
-  copyright: true # Copyright of theme and framework
+  custom_text:
+  copyright: false # Copyright of theme and framework
 
 # Analysis
 # --------------------------------------
