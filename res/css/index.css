@@ -1,0 +1,50 @@
+.Toast {
+  background: #000000;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 16px;
+  left: 50%;
+  min-width: 100px;
+  max-width: 62.6%;
+  opacity: 0.7;
+  padding: 0 3px;
+  padding: 0.5rem 0.75rem;
+  position: fixed;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999999999;
+}
+
+main p {
+  text-indent: 2em;
+}
+
+.comment-wrap p {
+  text-indent: 0em !important;
+}
+
+code, p, a {
+  word-break: break-all;
+}
+
+.number {
+  color: #1750EB !important;
+}
+
+.keyword {
+  color: #0033B3 !important;
+}
+
+.hjson .line, .json .attr {
+  color: #067D17;
+}
+
+.hjson .line .attr, .hjson .line .punctuation {
+  color: var(--hl-color);
+}
+
+.hjson .line .attr:first-child {
+  color: #174AD4;
+}
+
