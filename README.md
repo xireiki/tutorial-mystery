@@ -1,3 +1,5 @@
+
+
 # 神秘详细教程
 
 ## 阅读须知
@@ -20,3 +22,4 @@
 ## 开始阅读！
   - [Netlify(主）](https://xireiki.netlify.app)
   - [Github](https://xireiki.github.io/tutorial-mystery)
+  - [MkDocs(新教程)](https://tutor.xireiki.com)
